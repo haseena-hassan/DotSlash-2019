@@ -54,14 +54,15 @@
 body {
   margin: 0;
   font-family: monospace, Helvetica, sans-serif;
+  background-color: #0a0a0a;
 }
 
-.hero-image {
+/* .hero-image {
   background: url(../img/black.jpeg) no-repeat center; 
-  background-size: cover;
+  background-size: inherit;
   height: 500px;
   position: relative;
-}
+} */
 
 .hero-text {
   text-align: center;
@@ -76,5 +77,16 @@ body {
   position: relative;
   cursor: pointer;
   block-size: 120px
+}
+
+#field {
+  height: 200px;
+  border-bottom: 3px black groove;
+  position: relative;
+}
+
+#ball {
+  position: relative;
+  cursor: pointer;
 }
 
