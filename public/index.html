@@ -16,6 +16,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="assets/js/modernizr-2.6.2.min.js"></script>
 	<script src="assets/js/anim.js"></script>
+	<script src="assets/js/falldown.js"></script>
+	<script src="https://js.cx/libs/animate.js"></script>
 	
 	
 </head>
@@ -33,21 +35,21 @@
 	<canvas id="canvas" width="250" height="250"></canvas>	  
   </div>	
 	<div class="container-float">
-		<div class="hero-image">
+		
 			<img onload="moveRight()" id="pacman" src="../public/assets/img/pcman.png">
 			<div class="hero-text">
-				<h1 style="font-size:150px">DotSlash</h1>
-				<h3 id="demo"></h3>
-				<button>click</button>
-				<p>Page content..</p>
-		<p>Note that this technique will also make the image responsive: Resize the browser window to see the effect.</p>
+					<div id="field">
+							<img onmouseover="falldown()" src="ds.png" width="40" height="40" id="ball">
+					</div>
+					<h1 style="font-size:150px">DotSlash</h1>
+					<h3 id="demo"></h3>
+					<button>click</button>
+					<p>Page content..</p>
+					<p>Note that this technique will also make the image responsive: Resize the browser window to see the effect.</p>
+				
 			</div>
-		</div>
+		
 	</div>
 
 </body>
-
-</style>
-</head>
-<body>
-
+</html>
