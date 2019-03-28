@@ -3,7 +3,15 @@
   background-color: #0a0a0a;
   padding: 20px 10px;
 }
-
+/*loading screen code starts*/
+canvas {
+  display: block;
+  left: 50%;
+  margin: -125px 0 0 -125px;
+  position: absolute;
+  top: 50%;
+}
+/*loading screen code starts*/
 /* Style the header links */
 .header a {
   float: left;
