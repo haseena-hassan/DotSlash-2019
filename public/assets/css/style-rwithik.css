@@ -39,15 +39,25 @@ h1 ~ p {
 	text-decoration: none;
 }
 
-.modal {
+.modal-dialog {
 	width: 90vw;
 	height: 90vh;
+	text-align: center;
+}
 
+.modal-content {
+	background-color: #151515;
+	/*border-color: #ddd;*/
+	border-radius: 8px;
+}
+
+.modal-img {
+	max-width: 90%;
 }
 
 #event-button {
-	background-color: black;
-	color: rgb(41, 201, 26);
+	background-color: #090909;
+	color: #white;
 	border-color: #ddd;
 	border-radius: 5px;
 	-moz-appearance: none !important;

@@ -3,7 +3,8 @@ var j = 0;
 var date = 'April 27, 2019'; 
 var venue = 'Computer Science Department, CET';
 var speed = 100; /* The speed/duration of the effect in milliseconds */
-var speen = 1000;
+var speen = 1000; /* This works for some reason*/
+
 function typeWriter() {
   if (i < date.length) {
     document.getElementById("date").innerHTML += date.charAt(i);
@@ -27,7 +28,7 @@ function  moveRight() {
     let timer = setInterval(function() {
       let timePassed = Date.now() - start;
 
-      pacman.style.left = timePassed / 3 + 'px';
+      pacman.style.left = timePassed / 2 + 'px';
 
       if (timePassed > 2000) 
         clearInterval(timer);
