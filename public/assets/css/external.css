@@ -581,7 +581,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .foot p{
-  padding-bottom: 20px;
+  padding-bottom: 10px;
    padding-left:20px;
 }
 
@@ -606,9 +606,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   font-size:3vh;
 }
-.footerdesc{
+/* .footerdesc{
   margin-top: 10px;
-}
-.fimg{
-  height:24vh;
-}
+} */
