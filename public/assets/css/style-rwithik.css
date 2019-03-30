@@ -6,7 +6,7 @@ Otherwise almost every commit will cause a merge conflict.*/
 	margin: 2vh 1% 1vh 1%;
 	height: 300px;
 	width: 98%;
-	border: 2px white solid;
+	border: 2px #ddd solid;
 	border-radius: 7px;
 	background-color: #090909;
 }
@@ -32,6 +32,7 @@ h1:hover {
 
 h1 ~ p {
 	padding-left: 9px;
+	color: #ddd;
 }
 
 .event-card a {
@@ -43,12 +44,6 @@ h1 ~ p {
 	width: 90vw;
 	height: 90vh;
 	text-align: center;
-}
-
-.modal-content {
-	background-color: #151515;
-	/*border-color: #ddd;*/
-	border-radius: 8px;
 }
 
 .modal-img {
