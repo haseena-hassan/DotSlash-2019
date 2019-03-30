@@ -11,41 +11,196 @@
 	<link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/external.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<script src="assets/js/modernizr-2.6.2.min.js"></script>
 	<script src="assets/js/anim.js"></script>
 	<script src="assets/js/falldown.js"></script>
+	<script src="assets/js/custom.js"></script>
 	<script src="https://js.cx/libs/animate.js"></script>
 	
 	
 </head>
 <body onload="typeWriter()">
-	<div class="header">
+	
+	<!-- <div class="header">
 		<a href="#default" class="logo">Dotslash 2019</a>
 		<div class="header-right">
 		  <a href="#home">Home</a>
 		  <a href="#contact">Contact</a>
 		  <a href="#about">About</a>
 		</div>
-	</div> 		  
-	<div class="container-float">
+	</div> 
+	<div>
+	<canvas id="canvas" width="250" height="250"></canvas>	  
+  </div>	 -->
+	
+			
 		
-			<img onload="moveRight()" id="pacman" src="../public/assets/img/pcman.png">
-			<div class="hero-text">
-					<div id="field">
-							<img onmouseover="falldown()" src="ds.png" width="40" height="40" id="ball">
+			<section id="hero">
+					<div class="hero-container">
+						<div class="wow fadeIn">
+								<div id="field">
+										
+										<img onmouseover="falldown()" src="ds.png" width="40" height="40" id="ball">
+										<h1 id="spacing" style="font-size:50px">D tSlash</h1>
+							</div>
+							<h3 id="date" style="color :chartreuse"></h3>
+					<h3 id="venue" style="color :chartreuse"></h3>
+					<a href="events.html">
+					<button id="event-button" class="btn">
+						Explore Events!
+					</button>
+					</a>
+					
+						</div>
 					</div>
-					<h1 style="font-size:150px">DotSlash</h1>
-					<h3 id="demo"></h3>
-					<button>click</button>
-					<p>Page content..</p>
-					<p>Note that this technique will also make the image responsive: Resize the browser window to see the effect.</p>
+				</section>
 				
+ <!--==========================
+  Header Section
+  ============================-->
+  <header id="header">
+			<div class="container">
+	
+				<div id="logo" class="pull-left" style="padding-left:30px;; padding-top: 15px;">
+					
+					<!-- Uncomment below if you prefer to use a text image -->
+					<a href="#hero"><img src="ds.png" height="25px" width="25px"/></a>
+				</div>
+	
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li class="menu-active"><a href="#hero">Home</a></li>
+						<li><a href="#events.html">Events</a></li>
+						<li><a href="#">Workshops</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+					</ul>
+				</nav>
 			</div>
-		
-	</div>
+		</header>
+		<!-- #header -->
+	
+  <!--==========================
+  Services Section
+  ============================-->
+  <section id="services">
+			<div class="container wow fadeInUp">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="section-title">Events</h3>
+						<div class="section-title-divider"></div>
+					</div>
+				</div>
+	
+				<div class="row">
+					<div class="col-md-4 service-item">
+						<div class="service-icon"><i class="fa fa-desktop"></i></div>
+						<h4 class="service-title"><a href="">Workshops</a></h4>
+						<p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+					</div>
+					<div class="col-md-4 service-item">
+						<div class="service-icon"><i class="fa fa-bar-chart"></i></div>
+						<h4 class="service-title"><a href="">Tech Talks</a></h4>
+						<p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+					</div>
+					<div class="col-md-4 service-item">
+						<div class="service-icon"><i class="fa fa-paper-plane"></i></div>
+						<h4 class="service-title"><a href="">Gaming</a></h4>
+						<p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+					</div>
+					<div class="col-md-4 service-item">
+						<div class="service-icon"><i class="fa fa-desktop"></i></div>
+						<h4 class="service-title"><a href="">Coding</a></h4>
+						<p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					</div>
+					<div class="col-md-4 service-item">
+						<div class="service-icon"><i class="fa fa-road"></i></div>
+						<h4 class="service-title"><a href="">Nemo Enim</a></h4>
+						<p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+					</div>
+					<div class="col-md-4 service-item">
+						<div class="service-icon"><i class="fa fa-shopping-bag"></i></div>
+						<h4 class="service-title"><a href="">Eiusmod Tempor</a></h4>
+						<p class="service-description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!--==========================
+  Testimonials Section
+  ============================-->
+  <section id="testimonials">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Talk Series</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Erdo lide, nora porodo filece, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="profile">
+            <div class="pic"><img src="img/client-1.jpg" alt=""></div>
+            <h4>Saul Goodman</h4>
+            <span>Lawless Inc</span>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="quote">
+            <b><img src="img/quote_sign_left.png" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="img/quote_sign_right.png" alt=""></small>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-9">
+          <div class="quote">
+            <b><img src="img/quote_sign_left.png" alt=""></b> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. <small><img src="img/quote_sign_right.png" alt=""></small>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="profile">
+            <div class="pic"><img src="img/client-2.jpg" alt=""></div>
+            <h4>Sara Wilsson</h4>
+            <span>Odeo Inc</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+	<section class="foot" style="background-color: #000000;">
+		<div class="row" >
+			<div class="col-md-4 col-xs-12 footerlog">
+				<img src="assets/img/footerimg.png" class="fimg">
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<p>Follow us at</p>
+				<a href="https://www.facebook.com/dotslashcet/"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.instagram.com/dotslash18/"><i class="fa fa-instagram"></i></a>
+				<a href="mailto:dotslash@cet.ac.in" target="_top"><i class="fa fa-envelope"></i></a>
+			</div>
+			<div class="col-md-4 col-xs-12 footerdesc"><span>Department of Computer Science<br>and Engineering<br></span><span>//College of Engineering<br>Trivandrum<br></span><br><span>//Event Convenor<br>Ajaz Siddiq 8289902408</span></div>
+		</div>
+	</section>
+
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="lib/superfish/hoverIntent.js"></script>
+		<script src="lib/superfish/superfish.min.js"></script>
+		<script src="lib/morphext/morphext.min.js"></script>
+		<script src="lib/wow/wow.min.js"></script>
+		<script src="lib/stickyjs/sticky.js"></script>
+		<script src="lib/easing/easing.js"></script>
 
 </body>
 </html>
