@@ -55,9 +55,9 @@ h1 ~ p {
 	max-width: 90%;
 }
 
-#event-button .nav-btn {
+#event-button {
 	background-color: #090909;
-	color: white;
+	color: #white;
 	border-color: #ddd;
 	border-radius: 5px;
 	-moz-appearance: none !important;

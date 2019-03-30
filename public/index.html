@@ -37,7 +37,6 @@
 	</div> 
 	<div>
 	<canvas id="canvas" width="250" height="250"></canvas>	  
-  </div>	 -->
 	
 			
 		
@@ -51,9 +50,18 @@
 							</div>
 							<h3 id="date" style="color :chartreuse"></h3>
 					<h3 id="venue" style="color :chartreuse"></h3>
+  </div>	
+		
+			<img onload="moveRight()" id="pacman" src="../public/assets/img/pcman.png">
+			<div class="hero-text">
+					<div id="field">
+							<img onmouseover="falldown()" src="ds.png" width="40" height="40" id="ball">
+					</div>
+					<h1 style="font-size:150px">DotSlash</h1>
+					<h3 id="date"></h3>
+					<h3 id="venue"></h3>
 					<a href="events.html">
 					<button id="event-button" class="btn">
-						Explore Events!
 					</button>
 					</a>
 					
@@ -61,7 +69,7 @@
 					</div>
 				</section>
 				
- <!--==========================
+ <--==========================
   Header Section
   ============================-->
   <header id="header">
