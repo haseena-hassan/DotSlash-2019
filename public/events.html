@@ -15,6 +15,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<script src="assets/js/modernizr-2.6.2.min.js"></script>
 	<script src="assets/js/anim.js"></script>
 	<script src="assets/js/falldown.js"></script>
@@ -24,7 +26,7 @@
 </head>
 <body>
 	
-	<div class="header">
+	<div class="header navbar">
 		<a href="index.html" class="logo">Dotslash 2019</a>
 		<div class="header-right">
 			<a href="index.html">Home</a>
@@ -33,6 +35,7 @@
 		</div>
 	</div>
 	<div class="container-float">
+		<a data-toggle="modal" data-target="#eventModal1">
 		<div class="row event-card">
 			<div class="col-sm-12 col-md-4">
 				<img src="assets/img/testImg.jpg" class="event-card-img">
@@ -42,6 +45,8 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</div>
+		</a>
+
 		<div class="row event-card">
 			<div class="col-sm-12 col-md-4">
 				<img src="assets/img/testImg.jpg" class="event-card-img">
@@ -51,6 +56,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</div>
+
 		<div class="row event-card">
 			<div class="col-sm-12 col-md-4">
 				<img src="assets/img/testImg.jpg" class="event-card-img">
@@ -60,6 +66,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</div>
+
 		<div class="row event-card">
 			<div class="col-sm-12 col-md-4">
 				<img src="assets/img/testImg.jpg" class="event-card-img">
@@ -71,4 +78,26 @@
 		</div>
 	</div>
 </body>
+
+<!-- Modal -->
+<div id="eventModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 </html>

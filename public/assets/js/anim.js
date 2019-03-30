@@ -1,12 +1,23 @@
 var i = 0;
-var txt = 'April 27 , 2019 / Venue : Computer Science Department , CET'; /* The text */
+var j = 0;
+var date = 'April 27, 2019'; 
+var venue = 'Computer Science Department, CET';
 var speed = 100; /* The speed/duration of the effect in milliseconds */
-
+var speen = 1000;
 function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
+  if (i < date.length) {
+    document.getElementById("date").innerHTML += date.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
+  }
+  setTimeout(typeVenue, 2000);
+}
+
+function typeVenue() {
+  if (j < venue.length) {
+    document.getElementById("venue").innerHTML += venue.charAt(j);
+    ++j;
+    setTimeout(typeVenue, speen);
   }
 }
 
