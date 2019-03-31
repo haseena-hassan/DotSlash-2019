@@ -37,6 +37,9 @@ function  moveRight() {
 }
  
 
+// function modalpopup() {
+  
+// }
 
 
 /*loading screen code starts*/

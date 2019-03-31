@@ -7,7 +7,7 @@ Otherwise almost every commit will cause a merge conflict.*/
 
 .event-card {
 	position: relative;
-	margin: 2vh 1% 1vh 1%;
+	margin: 2vh 1% 1vh 1% !important;
 	height: 300px;
 	width: 98%;
 	border: 2px white solid;
@@ -16,8 +16,10 @@ Otherwise almost every commit will cause a merge conflict.*/
 }
 
 .event-card-img {
-	width: 25%;
+	max-width: 100%;
+	vertical-align: middle;
 	height: auto;
+	/*object-fit: contain;*/
 }
 
 h1 {
