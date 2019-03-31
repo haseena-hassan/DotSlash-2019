@@ -1,0 +1,16 @@
+.nav a {
+	color: #ddd !important;
+	transition: 0.2s linear !important;
+}
+
+.nav a:hover {
+	color: #03C4EB !important;
+}
+
+.nav .active a {
+	color: #03C4EB !important;
+}
+
+.nav .active a:hover {
+	color: #ddd !important;
+}

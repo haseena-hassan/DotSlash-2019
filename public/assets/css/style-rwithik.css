@@ -3,6 +3,7 @@ Otherwise almost every commit will cause a merge conflict.*/
 
 .events-body {
 	background-color: #0a0a0a;
+  	padding-top: 65px;
 }
 
 .event-card {
@@ -79,4 +80,8 @@ h1 ~ p {
 	.event-card-img {
 		height: 50%;
 	}
+
+	/*.nav-menu li{*/
+		/*display: block;*/
+	/*}*/
 }
