@@ -15,7 +15,7 @@ function makeEaseOut(timing) {
 function falldown() {
   let to = field.clientHeight - ball.clientHeight;
   animate({
-    duration: 2000,
+    duration: 3000,
     timing: makeEaseOut(bounce),
     draw(progress) {
       ball.style.top = to * progress + 'px';
