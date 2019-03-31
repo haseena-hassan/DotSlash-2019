@@ -1,9 +1,13 @@
 /*Combine both the css files in the end. 
 Otherwise almost every commit will cause a merge conflict.*/
 
+.events-body {
+	background-color: #0a0a0a;
+}
+
 .event-card {
 	position: relative;
-	margin: 2vh 1% 1vh 1%;
+	margin: 2vh 1% 1vh 1% !important;
 	height: 300px;
 	width: 98%;
 	border: 2px white solid;
@@ -12,8 +16,10 @@ Otherwise almost every commit will cause a merge conflict.*/
 }
 
 .event-card-img {
-	height: 100%;
-	width: 100%;
+	max-width: 100%;
+	vertical-align: middle;
+	height: auto;
+	/*object-fit: contain;*/
 }
 
 h1 {

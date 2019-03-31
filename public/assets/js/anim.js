@@ -37,6 +37,9 @@ function  moveRight() {
 }
  
 
+// function modalpopup() {
+  
+// }
 
 
 /*loading screen code starts*/
@@ -89,3 +92,5 @@ var loader = new canvasLoader();
 loader.init();
 
 /*loading screen code ends*/
+
+
