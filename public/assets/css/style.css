@@ -1,3 +1,7 @@
+ html {
+  scroll-behavior: smooth;
+}
+
 #header {
   overflow: hidden;
   background-color: #0a0a0a;
