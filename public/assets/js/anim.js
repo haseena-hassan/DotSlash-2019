@@ -89,3 +89,5 @@ var loader = new canvasLoader();
 loader.init();
 
 /*loading screen code ends*/
+
+
