@@ -14,3 +14,10 @@
 .nav .active a:hover {
 	color: #ddd !important;
 }
+
+.nav-logo-text {
+	color: #337ab7;
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 16px;
+}
