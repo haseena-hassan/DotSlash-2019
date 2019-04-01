@@ -28,6 +28,7 @@
 
 /*--------------------------------------------------------------
 # General
+id="spacing"
 --------------------------------------------------------------*/
 body {
   background: rgb(247, 243, 243);
@@ -53,8 +54,8 @@ p {
 
 
 #spacing {
-  letter-spacing: 2vw;
-  padding-top: 35px;
+  letter-spacing: 1vw;
+  padding-top: 29px;
 }
 
 /* Prelaoder */
@@ -233,7 +234,7 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  text-transform: uppercase;
+  text-transform: uppercase;id="spacing"
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
