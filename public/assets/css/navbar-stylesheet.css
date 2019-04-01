@@ -21,3 +21,11 @@
 	font-size: 14px;
 	margin-top: 16px;
 }
+
+#navbar-logo-img {
+	transition: 10s linear;
+}
+
+#navbar-logo-img:hover {
+	transform: rotate(30000deg);	
+}

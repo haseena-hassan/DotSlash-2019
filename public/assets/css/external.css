@@ -84,6 +84,12 @@ p {
   background-size: cover;
 }
 
+@media screen and (max-width: 780px) {
+  #service {
+    height: 200vh;
+  }
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -475,6 +481,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   font-family: "Raleway", sans-serif;
   padding: 80px 0 60px 0;
+  height: 100vh;
 }
 
 #services .service-item {
