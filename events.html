@@ -13,6 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style-rwithik.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/external.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/navbar-stylesheet.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,25 +28,38 @@
 		
 	</head>
 	<body class="events-body">
-		<header id="header">
-			<div class="container-fluid">
-				
-				<div id="logo" class="pull-left" style="padding-left:30px;; padding-top: 15px;">
-					
-					<a href="#hero"><img src="ds.png" height="25px" width="25px"/></a>
-					<img src="assets/img/events.png"/>
-				</div>
-				
-				<nav id="nav-menu-container">
-					<ul class="nav-menu">
-						<li><a href="index.html">Home</a></li>
-						<li  class="menu-active"><a href="#events.html">Events</a></li>
-						<li><a href="#">Workshops</a></li>
-						<li><a href="#contact">Contact Us</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">
+      	<img id="navbar-logo-img" src="ds.png" style="margin-top: -10px; display: inline-block;">
+      </a>
+      <a class="nav-logo-text" href="index.html">
+      		<b>/home</b>
+      	</a>
+      	<a class="nav-logo-text" href="events.html">
+      	<b>/ events/ </b> $
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="events.html">Events</a></li>
+        <li><a href="workshops.html">Workshops</a></li>
+        <li><a href="mailto:dotslash@cet.ac.in">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</body>
+</html>
+
 		<div class="container-fluid">
 			<a data-toggle='modal' data-target='#myModal'>
 				<div class="row event-card">
@@ -92,13 +106,44 @@
 						<h1>Event Title!</h1>
 					</div>
 				</div>
-			</a>
+			</aq>
 		</div>
+		<section id="team">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title" style="color: rgba(255,255,255,0.5);">Contact</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="member">
+            <div class="pic"><img src="assets/img/footerimg.png" alt=""></div>
+            <h4>Department of Computer Science and Engineering<br>College of Engineering</h4>
+            <span>Event Convenor<br>Ajaz Siddiq 8289902408</span>
+            <div class="social">
+              
+              <a href="https://www.facebook.com/dotslashcet/"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/dotslash18/"><i class="fa fa-instagram"></i></a>
+              <a href="mailto:dotslash@cet.ac.in"><i class="fa fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 	</body>
-	<!-- Modal -->
+
+
+
+
+	<!-- MODALS GO HERE -->
+
 	<div id="myModal" class="modal fade" role="dialog">
 		<div class="modal-dialog">
-			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>

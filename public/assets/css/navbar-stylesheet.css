@@ -1,0 +1,31 @@
+.nav a {
+	color: #ddd !important;
+	transition: 0.2s linear !important;
+}
+
+.nav a:hover {
+	color: #03C4EB !important;
+}
+
+.nav .active a {
+	color: #03C4EB !important;
+}
+
+.nav .active a:hover {
+	color: #ddd !important;
+}
+
+.nav-logo-text {
+	color: #337ab7;
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 16px;
+}
+
+#navbar-logo-img {
+	transition: 10s linear;
+}
+
+#navbar-logo-img:hover {
+	transform: rotate(30000deg);	
+}
