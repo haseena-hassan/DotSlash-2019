@@ -49,11 +49,11 @@ h1 ~ p {
 .modal-dialog {
 	width: 90vw;
 	height: 90vh;
-	text-align: center;
+	text-align: left;
 }
 
 .modal-content {
-	background-color: #151515;
+	background-color: grey;
 	/*border-color: #ddd;*/
 	border-radius: 8px;
 }

@@ -1,6 +1,6 @@
 modalText = '\t<div id="myModal" class="modal fade" role="dialog">\n        <div class="modal-dialog">\n            <div class="modal-content">\n                <div class="modal-header">\n                    <button type="button" class="close" data-dismiss="modal">&times;</button>\n                    <h4 class="modal-title">Modal Header</h4>\n                </div>\n                <div class="modal-body">\n                    <p>Some text in the modal.</p>\n                </div>\n                <div class="modal-footer">\n                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>\n                </div>\n            </div>\n        </div>\n    </div>'
 
-with open('modals') as f:
+with open('modals.txt') as f:
     modals = [x[:-1] for x in f.readlines()]
 
 title = False
@@ -18,7 +18,7 @@ for line in modals:
         title = False
         content = ''
     else:
-        content = content + '\n' + line
+        content = content + '\n<br>' + line
 
 print("\n\n\n\n\n=========Cards=========\n\n\n")
 
