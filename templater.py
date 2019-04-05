@@ -22,7 +22,7 @@ for line in modals:
 
 print("\n\n\n\n\n=========Cards=========\n\n\n")
 
-cardText = '\t\t<div class="container-fluid">\n            <a data-toggle=\'modal\' data-target=\'#myModal\'>\n                <div class="row event-card">\n                    <div class="col-md-4 col-sm-12">\n                        <img class="img-responsive event-card-img" src="assets/img/testImg.jpg">\n                    </div>\n                    <div class="col-md-8 col-sm-12">\n                        <h1>Event Title!</h1>\n                    </div>\n                </div>\n            </a>\n        </div>'
+cardText = '\t\t<div class="container-fluid">\n            <a data-toggle=\'modal\' data-target=\'#myModal\'>\n                <div class="row event-card">\n                    <div class="col-md-4 col-sm-12">\n                        <img class="img-responsive event-card-img" src="assets/img/pair coding.jpeg">\n                    </div>\n                    <div class="col-md-8 col-sm-12">\n                        <h1>Event Title!</h1>\n                    </div>\n                </div>\n            </a>\n        </div>'
 for line in modals:
     if (line == "==="):
         print(cardText.replace("Event Title!", titleText).replace("myModal", titleText.replace(' ', '-') + '-modal'))

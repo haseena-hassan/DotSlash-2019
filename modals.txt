@@ -22,7 +22,7 @@ Jacob - 9037967806
 Arun - 8075727965
 
 ===
-Pair Coding
+PAIR CODING
 Hello peeps! Ever wondered how much your aptitude for coding can be assessed when you are part of a team ?
 Well, DotSlash is here with Pair Coding.
 Pair Coding tests your expertise in coding as well as your cooperation skills. 
