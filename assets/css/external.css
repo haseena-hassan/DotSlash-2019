@@ -110,7 +110,7 @@ p {
   width: 100%;
   height: 100vh;
   /*background: url(https://media.boingboing.net/wp-content/uploads/2018/12/agifcolossaltd2opt.gif) top center;*/
-  background: url(../img/matrix.gif) top center;
+  background: url("../img/Starfield.gif") top center;
   background-size: cover;
 }
 
@@ -564,7 +564,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-  background: linear-gradient(rgba(153, 153, 153, 0.7), rgba(0, 0, 0, 0.9)), url("../img/talks.jpg") fixed center center;
+  /* background: linear-gradient(rgba(153, 153, 153, 0.7), rgba(0, 0, 0, 0.9)), url("../img/talks.jpg") fixed center center; */
   background-size: cover;
   padding: 80px 0;
 }
