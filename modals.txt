@@ -1,47 +1,66 @@
 ===
-DEBUGGER
-"Its a debugging event. You' look at code; and fix it. We'll tell you what it should do, and its' upto you to make what we did, do that. 
+AR Game Development Workshop
+Hola Cetians!
 
-P.S: Any errors found in the description, grammatical or otherwise, are purely intentional and can be redeemed for extra points.
+The emergence of  AR is taking technology through unexplored avenues. 
+Augmented reality devices may look like props from a futuristic science 
+fiction, but in reality, AR technology is being used in all sorts of 
+real-world applications. 
 
-Prize worth 6k
+DotSlash'19 presents the AR Game development workshop.
 
-P.P.S: Not really, what do you take us for?"
+”Our job as the game creators or developers - the programmers, artists, and 
+whatnot - is that we have to kind of put ourselves in the user's shoes. We 
+try to see what they're seeing, and then make it, and support what we think 
+they might think. “
+-Shigeru Miyamoto
 
-Rules :
-1. This is an individual event
-2. Both are given the question on the same screen and are expected to work on it.
-3. There will be elimination rounds before the finals
-4. The event is offline
-5. Decisions of the judge is final.
-6. Duration : 2 Hours
-7. Fee : 100 per head
+Due to constant rise of the video game industry, the demand for game 
+developers is increasing at a steadfast rate. We can give you the headstart 
+you need in your journey to put yourself up there with the best.
 
-Come and join us for our Dept Fest Dotslash  and take this exhilarating journey in your coding life.
+Venue: Dept. Of Computer Science, College of Engineering, Trivandrum
 
-Contact Deatails :
-Jacob - 9037967806
-jacob13400@gmail.com
-Arun - 8075727965
-joseverres42@gmail.com
+Date : 27th April 2019
+
+Registration fees: Rs.350
+
+Contact : 
+Abhishek S - 9846105644
+Abhishek Manoharan - 8891410500
 ===
-PAIR CODING
-Hello peeps! Ever wondered how much your aptitude for coding can be assessed when you are part of a team ?
-Well, DotSlash is here with Pair Coding.
-Pair Coding tests your expertise in coding as well as your cooperation skills. 
-The competition includes teams of two competing with one team member coding at a time. After a fixed interval of time, the other member resumes with the code.
-So come along in teams of two and seize this compelling opportunity.
+Blockchain Workshop
+Hola Cetians !
 
-Prizes Worth 8k
+You might Have come across the term " Distributed Ledger " , Ever Wondered 
+what it means and if yes , then this is the place for you
 
-Rules: 
-1. Teams of two.
-2. Only one person will code at a time. The team member who is coding will be switched periodically. 
-3. There will be two rounds. 
-4. Coding will be done offline on the systems provided.
-5. Registration fee: 150 per team.
+“What is a Distributed Ledger?”, blockchain technology represents a 
+revolution in how information is gathered and collected. It is less about 
+maintaining a database, more about managing a system of record.
 
-Contact 
-Rwithik : +91 88486 71257
-Keerthana : 8547404277
+ So if you think you're Charmed by the Enigma that is Blockchain Technology 
+and wish to Immerse yourself in the world of Bitcoin Transactions using 
+Blockchain , Do join us as we believe in a bew age world dominated by 
+Crytpography . 
+
+Department of Computer Science and Engineering of College of Engineering 
+Trivandrum presents to you at Dotslash'19 an innovative  workshop on 
+Blockchain Technology
+
+Date:  27th April 2019
+
+Venue:  College of Engineering Trivandrum , Computer science Dept 
+
+Registration fee:  350 Rs
+
+So what are you waiting for ? 
+Register at :
+
+ Laptops are preferred.
+
+Contact
+
+Adarsh Vijay +918139004877
+Sachin G       +918921037099
 ===
