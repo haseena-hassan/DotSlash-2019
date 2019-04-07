@@ -512,17 +512,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   font-family: "Raleway", sans-serif;
   padding: 80px 0 60px 0;
-  height: 100vh;
+  height: 80vh;
 }
 
 #services .service-item {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 #services .service-icon {
   float: left;
   background: #03C4EB;
-  margin: 30px;
+  margin: 10px;
   padding: 10px;
   border-radius: 50%;
   transition: 0.5s;
