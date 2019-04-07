@@ -15,7 +15,7 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title"></h4>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body col-md-12 col-sm-12">
                     <p></p>
                 </div>
                 <div class="modal-footer">
@@ -24,92 +24,35 @@
             </div>
         </div>
     </div>
-	<div id="AR-Game-Development-Workshop-modal" class="modal fade" role="dialog">
+	<div id="Competitive-Coding-Workshop-modal" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">AR Game Development Workshop</h4>
+                    <h4 class="modal-title">Competitive Coding Workshop</h4>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body col-md-12 col-sm-12">
                     <p>
-<br>Hola Cetians!
+<br>Competitive programming, a gargantuan field that has immense importance. From simple coding contests to campus interviews test us in this field.  We can give you the perfect start ! 
 <br>
-<br>The emergence of  AR is taking technology through unexplored avenues. 
-<br>Augmented reality devices may look like props from a futuristic science 
-<br>fiction, but in reality, AR technology is being used in all sorts of 
-<br>real-world applications. 
+<br> Dotslash'19  in association with ProCoders Club CET presents the ‘Competitive Coding Workshop’.
 <br>
-<br>DotSlash'19 presents the AR Game development workshop.
+<br>“Those who can imagine anything, can create the impossible.” 
+<br>― Alan Turing
 <br>
-<br>”Our job as the game creators or developers - the programmers, artists, and 
-<br>whatnot - is that we have to kind of put ourselves in the user's shoes. We 
-<br>try to see what they're seeing, and then make it, and support what we think 
-<br>they might think. “
-<br>-Shigeru Miyamoto
+<br>Problem solving is one top skill on demand to any organization. The role of programmers as problem solvers is inevitable. So let’s bring out the artist inside you and commit to accomplishing the impossible.
 <br>
-<br>Due to constant rise of the video game industry, the demand for game 
-<br>developers is increasing at a steadfast rate. We can give you the headstart 
-<br>you need in your journey to put yourself up there with the best.
+<br>Venue  : Department Of Computer Science And Engineering , CET 
 <br>
-<br>Venue: Dept. Of Computer Science, College of Engineering, Trivandrum
+<br>Date : 06-04-2019
 <br>
-<br>Date : 27th April 2019
+<br>Reg Fee : ₹500
 <br>
-<br>Registration fees: Rs.350
+<br>Contact: 
+<br>   Aryasree: 8848853882
+<br>   Rahul :8848266693
 <br>
-<br>Contact : 
-<br>Abhishek S - 9846105644
-<br>Abhishek Manoharan - 8891410500</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-	<div id="Blockchain-Workshop-modal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Blockchain Workshop</h4>
-                </div>
-                <div class="modal-body">
-                    <p>
-<br>Hola Cetians !
-<br>
-<br>You might Have come across the term " Distributed Ledger " , Ever Wondered 
-<br>what it means and if yes , then this is the place for you
-<br>
-<br>“What is a Distributed Ledger?”, blockchain technology represents a 
-<br>revolution in how information is gathered and collected. It is less about 
-<br>maintaining a database, more about managing a system of record.
-<br>
-<br> So if you think you're Charmed by the Enigma that is Blockchain Technology 
-<br>and wish to Immerse yourself in the world of Bitcoin Transactions using 
-<br>Blockchain , Do join us as we believe in a bew age world dominated by 
-<br>Crytpography . 
-<br>
-<br>Department of Computer Science and Engineering of College of Engineering 
-<br>Trivandrum presents to you at Dotslash'19 an innovative  workshop on 
-<br>Blockchain Technology
-<br>
-<br>Date:  27th April 2019
-<br>
-<br>Venue:  College of Engineering Trivandrum , Computer science Dept 
-<br>
-<br>Registration fee:  350 Rs
-<br>
-<br>So what are you waiting for ? 
-<br>Register at :
-<br>
-<br> Laptops are preferred.
-<br>
-<br>Contact
-<br>
-<br>Adarsh Vijay +918139004877
-<br>Sachin G       +918921037099</p>
+<br>Register at:https://www.yepdesk.com/dotslash</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -127,37 +70,25 @@
 
 
 		<div class="container-fluid">
-            <a data-toggle='modal' data-target='#Blockchain-Workshop-modal'>
+            <a data-toggle='modal' data-target='#==-modal'>
                 <div class="row event-card">
                     <div class="col-md-4 col-sm-12">
-                        <img class="img-responsive event-card-img" src="assets/img/pair coding.jpeg">
+                        <img class="img-responsive event-card-img" src="assets/img/ethicalicon.jpeg">
                     </div>
                     <div class="col-md-8 col-sm-12">
-                        <h1>Blockchain Workshop</h1>
+                        <h1>==</h1>
                     </div>
                 </div>
             </a>
         </div>
 		<div class="container-fluid">
-            <a data-toggle='modal' data-target='#AR-Game-Development-Workshop-modal'>
+            <a data-toggle='modal' data-target='#Competitive-Coding-Workshop-modal'>
                 <div class="row event-card">
                     <div class="col-md-4 col-sm-12">
-                        <img class="img-responsive event-card-img" src="assets/img/pair coding.jpeg">
+                        <img class="img-responsive event-card-img" src="assets/img/ethicalicon.jpeg">
                     </div>
                     <div class="col-md-8 col-sm-12">
-                        <h1>AR Game Development Workshop</h1>
-                    </div>
-                </div>
-            </a>
-        </div>
-		<div class="container-fluid">
-            <a data-toggle='modal' data-target='#Blockchain-Workshop-modal'>
-                <div class="row event-card">
-                    <div class="col-md-4 col-sm-12">
-                        <img class="img-responsive event-card-img" src="assets/img/pair coding.jpeg">
-                    </div>
-                    <div class="col-md-8 col-sm-12">
-                        <h1>Blockchain Workshop</h1>
+                        <h1>Competitive Coding Workshop</h1>
                     </div>
                 </div>
             </a>
