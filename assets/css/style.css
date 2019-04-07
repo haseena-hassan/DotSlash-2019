@@ -113,3 +113,9 @@ body {
   width: 15vw;
   height: auto;
 }
+
+/*Workshops name*/
+
+h1.workshop{
+  padding-top: 40px;
+}
