@@ -687,9 +687,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   padding-bottom: 20px;
-  color: rgb(255, 0, 255)
+  color: rgb(196, 196, 196)
 }
 
 #team .member .social {
@@ -709,5 +709,5 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 10px;
 }
 .social a :hover {
-  color:rgb(136,112,195);
+  color:rgb(167, 76, 76);
 }
