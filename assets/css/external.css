@@ -574,7 +574,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .profile .pic {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: 6px solid #fff;
   margin-bottom: 15px;
   overflow: hidden;
@@ -598,11 +598,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .quote {
   position: relative;
-  text-align: center;
+  text-align: justify;
   padding: 60px;
   margin-top: 40px;
   font-size: 16px;
-  font-style: italic;
+  font-style: normal;
   border-radius: 5px;
 }
 
